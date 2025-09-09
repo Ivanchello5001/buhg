@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бухгалтерские услуги | Наталья</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Анимированный фон -->
+    <div class="background-animation">
+        <div class="background-circle"></div>
+        <div class="background-circle"></div>
+        <div class="background-circle"></div>
+        <div class="background-circle"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Бухгалтерские услуги</div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#services">Услуги и цены</a></li>
+                    <li><a href="#contact-form">Обратная связь</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="fade-in">Профессиональный бухгалтер</h1>
+            <p class="fade-in">27 лет опыта в ведении бухгалтерского учёта для компаний и предпринимателей</p>
+            <!-- КНОПКА ОБРАТНОЙ СВЯЗИ В ГЕРОЕ -->
+            <a href="#contact-form" class="btn btn-feedback fade-in">
+                <i class="fas fa-comment-dots"></i> Обратная связь
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title fade-in">Давайте знакомиться 😊</h2>
+                
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <p>Меня зовут Наталья!</p>
+                        <p>Очень люблю свою профессию и занимаюсь ею всю свою жизнь.</p>
+                        
+                        <p><span class="highlight">Стаж работы в профессии 27 лет</span></p>
+                        
+                        <p>Веду на аутсорсинге бухучёт компаний и предпринимателей Тулы и Москвы.</p>
+                        <p>Я буду следить за тем, чтобы все декларации были сданы в срок и все налоги уплачены вовремя. А вы будете спокойно развивать свой бизнес 😉</p>
+                        
+                        <p>Вы можете получить бесплатную консультацию по вопросу бухгалтерии и налогообложения.</p>
+                    </div>
+                    
+                    <div class="about-image fade-in">
+                        <img src="photo.jpg" alt="Бухгалтер Наталья">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title fade-in">Услуги и стоимость</h2>
+                
+                <div class="service-category fade-in">
+                    <h3>Разовые услуги</h3>
+                    <ul class="service-list">
+                        <li>
+                            <span class="service-name">Нулевая декларация УСН</span>
+                            <span class="service-price">от 2 000 руб.</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Квитанция на взносы</span>
+                            <span class="service-price">от 300 руб.</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Заполнение декларации УСН 6% с вашими показателями</span>
+                            <span class="service-price">3 000 руб.</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Заполнение книги доходов</span>
+                            <span class="service-price">от 3 000 руб.</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Заполнение заявления на патент</span>
+                            <span class="service-price">2 000 руб.</span>
+                        </li>
+                        <li>
+                            <span class="service-name">Заполнение уведомления в налоговую</span>
+                            <span class="service-price">2 000 руб.</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="service-category fade-in">
+                    <h3>Консультация</h3>
+                    <ul class="service-list">
+                        <li>
+                            <span class="service-name">Стоимость консультации при личной встрече</span>
+                            <span class="consultation-price">
+                                <span class="price-main">От 3000 руб.</span>
+                                <span class="price-note">зависит от сложности вопроса</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ ФОРМЫ ОБРАТНОЙ СВЯЗИ -->
+    <section id="contact-form" style="background: #f5f5f5; padding: 60px 0;">
+        <div class="container">
+            <h2 class="section-title fade-in">Обратная связь</h2>
+            <div class="fade-in" style="text-align: center; margin: 30px 0;">
+                <p>Оставьте ваши контакты и вопрос, и я свяжусь с вами в ближайшее время</p>
+                <!-- Яндекс Форма -->
+                <div class="yandex-form-container">
+                    <iframe src="https://forms.yandex.ru/u/68c0603f068ff03f009c1f4b?iframe=1" 
+                            frameborder="0" 
+                            name="ya-form-68c0603f068ff03f009c1f4b" 
+                            width="650"
+                            height="500">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h3 class="fade-in">Свяжитесь со мной</h3>
+                <p class="phone-number fade-in">+7 910 159 2615</p>
+                
+                <div class="social-buttons">
+                    <a href="https://t.me/NataliBelousovaTula" class="btn btn-telegram fade-in">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </a>
+                    <a href="https://wa.me/79101592615" class="btn btn-whatsapp fade-in">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <div class="copyright fade-in">
+                <p>© 2025 Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипт Яндекс Формы -->
+    <script src="https://forms.yandex.ru/_static/embed.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
